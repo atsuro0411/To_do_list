@@ -23,9 +23,10 @@
   </head>
 
   <body>
-    <%= render "posts/header"%>
-    
-  </div>
+    <%= render "shared/header"%>
+    <% flash.each do |key, message| %>
+      <div class="flash <%= key %>"><%= message %></div>
+    <% end %>
     <%= yield %>
   </body>
 </html>

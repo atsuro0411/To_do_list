@@ -1,4 +1,13 @@
 <div class = "posts-new">
+  <% if @post.errors.any? %>
+    <div class="error-messages">
+      <ul>
+        <% @post.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
   <h1 class="form-heading">投稿する</h1>
   <%= form_with model: @post do |form| %>
     <div class="form-body">
