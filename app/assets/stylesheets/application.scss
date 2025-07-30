@@ -5,3 +5,7 @@
 @use "posts/show";
 @use "posts/header";
 @use "posts/flash";
+@use "users/sessions-new";
+@use "users/regisrations-new";
+@use "users/passwords-new";
+@use "users/error"
