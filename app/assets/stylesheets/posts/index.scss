@@ -2,14 +2,6 @@
   h2.section-title {
     text-align: center;
   }
-  .new_link{
-  text-decoration: none;
-  color:black;
-  }
-  .to_do_link{
-  text-decoration: none;
-  color:red;
-  }
   .posts-top{
     width: 900px;
     margin: 0 auto;
@@ -35,10 +27,6 @@
           opacity: 0.2;
           text-decoration: line-through;
           text-decoration-thickness: 2px;
-        }
-        .post_link{
-          text-decoration: none;
-          color:black;
         }
       }
       .posts-due-date{
