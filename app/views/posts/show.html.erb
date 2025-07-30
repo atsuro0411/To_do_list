@@ -1,6 +1,8 @@
 <div class = "posts-show">
-  <div class="posts-show-item">
-    <%= @post.content %>
+  <div class = "posts-show-box">  
+    <div class="posts-show-item">
+      <%= @post.content %>
+    </div>
   </div>
   <div class="post-menus">
     <%= link_to "編集", edit_post_path(@post) , class: "post-edit" %>

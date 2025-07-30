@@ -1,12 +1,15 @@
 .posts-show{
-  .posts-show-item{
-  width: 400px;
-  height: 100px;
-  margin: 0 auto;
-  border: solid 1px;
-  font-size: 20px;
-  padding: 10px;
-  box-sizing: border-box;
+  .posts-show-box{
+    margin-top: 60px;
+    .posts-show-item{
+      width: 400px;
+      height: 100px;
+      margin: 0 auto;
+      border: solid 1px;
+      font-size: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
   }
   .post-menus{
     width: 400px;
