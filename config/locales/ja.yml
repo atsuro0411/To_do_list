@@ -5,30 +5,8 @@ ja:
   time:
     formats:
       default: "%H:%M"
+  
   activerecord:
-    models:
-      post: 投稿
-      user: ユーザー
     attributes:
-      post:
-        content: コメント
-        due_date: 締切日時
       user:
-        email: メールアドレス
-        password: パスワード
-  errors:
-    messages:
-      blank: "が空です"
-      not_saved: "%{resource}の保存に失敗しました："
-  devise:
-    sessions:
-      user:
-        signed_in: "ログインしました。"
-        signed_out: "ログアウトしました。"
-    passwords:
-      user:
-        send_instructions: "パスワード再設定の案内をメールで送信しました。"
-    failure:
-      invalid: "メールアドレスまたはパスワードが正しくありません。"
-      not_found_in_database: "メールアドレスまたはパスワードが正しくありません。"
-    
+        name: 名前
