@@ -60,6 +60,11 @@ class PostsController < ApplicationController
   def mark
     post = Post.find(params[:id])
     post.update(is_completed: !post.is_completed)
+    if post.is_completed
+      flash[:notice] = "#{post.content}が完了しました。"
+    else
+      flash[:notice] = "#{post.content}を未完了に戻しました。"
+    end
     redirect_back fallback_location: posts_path
   end
 
